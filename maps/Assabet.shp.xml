@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>US Fish and Wildlife Service, Region 5, National Wildlife Refuge System, Realty Division, Land Surveying &amp; Geospatial Services Branch</origin>
+				<pubdate>20100601</pubdate>
+				<title>Assabet River National Wildlife Refuge</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>National Wildlife Refuge Boundary Data</sername>
+					<issue>Assabet River</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Hadley, Massachusetts</pubplace>
+					<publish>US Fish and Wildlife Service</publish>
+				</pubinfo>
+				<onlink>http://northeast.fws.gov/gis</onlink>
+				<ftname Sync="TRUE">FwsInterest</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>National Wildlife Refuges are federal lands managed by the U.S. Fish and Wildlife Service (USFWS). The primary source for boundary information is the USFWS Realty program (status maps, legal surveys). An effort by the USFWS Region 5 (northeast states - ME, NH, VT, MA, RI, CT, NY, PA, NJ, MD, DE, WV, VA) Realty Division, Cartography and Spatial Data Services Branch has resulted in digital refuge boundaries for all refuges in the Northeast at a scale of 1:24,000.</abstract>
+			<purpose>The intended application of the refuge boundary data is for use as a spatial reference with other data layers in GIS and mapping applications. It is specifically not intended to be used as a land survey or representation of land for conveyance or tax purposes. For survey data, please contact USFWS, Region 5, Realty Division, Surveys Branch.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20100601</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-71.524396</westbc>
+				<eastbc>-71.445571</eastbc>
+				<northbc>42.423761</northbc>
+				<southbc>42.377674</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>National Wildlife Refuge boundary</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Assabet River National Wildlife Refuge</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>MA</placekey>
+				<placekey>Northeastern United States</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Refuge boundary data were compiled for use with natural resource mapping and GIS applications. It is inappropriate to use these data in legal situations, or other applications where spatial error cannot exceed the USGS 7.5-minute mapping standards.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Hayden</cntper>
+					<cntorg>US Fish and Wildlife Service, Region 5, National Wildlife Refuge System, Realty Division, Land Surveying &amp; Geospatial Services Branch</cntorg>
+				</cntperp>
+				<cntpos>Supervisory Land Surveyor</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Fish and Wildlife Service, Realty Division, 300 Westgate Center Dr.</address>
+					<city>Hadley</city>
+					<state>MA</state>
+					<postal>01035</postal>
+				</cntaddr>
+				<cntvoice>(413) 253-8535</cntvoice>
+				<cntfax>(413) 253-8480</cntfax>
+				<cntemail>Mike_Hayden@fws.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Digital refuge boundaries are plotted with arc and polygon attributes, then compared to USFWS Realty status maps, survey documents, and collateral information for coding accuracy. Up to three levels of quality-control review are conducted (Cartography and Spatial Data Services Branch, Realty Management Branch, Refuge System Staff) with corrections being incorporated after each review until the dataset is deemed acceptable. See "Standard Operating Procedure (SOP) 97-01, United States Fish and Wildlife Service (USFWS) Lands Boundary Data (Last Revision: January 15, 1998)" at http://www.fws.gov/stand/standards/pr_bndry.html.</attraccr>
+		</attracc>
+		<logic>Polygons are closed and adjusted to the most accurate geographic features, usually on a USGS 7.5' topographic quad. Dangling arcs, undershoots, and overshoots have been removed.</logic>
+		<complete>Boundaries were digitized for USFWS owned lands, lands where USFWS maintains a management interest, and areas approved for USFWS acquisition. Plots are generated and quality-control reviewed for omission and commission errors.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Digital refuge boundaries are verified against USGS 1:24,000-scale Digital Raster Graphics (DRGs) or 1:12,000-scale Digital Orthophoto Quarter Quads (DOQQs). Data are stored in ArcInfo double precision.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>USFWS, Region 5, National Wildlife Refuge System, Realty Division, Cartography and Spatial Data Services Branch</origin>
+						<pubdate>20000101</pubdate>
+						<title>Assabet River NWR Status Map</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>National Wildlife Refuge Status Maps</sername>
+							<issue>Assabet River NWR</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Hadley, MA</pubplace>
+							<publish>US Fish and Wildlife Service</publish>
+						</pubinfo>
+						<onlink>http://northeast.fws.gov/gis</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>mylar</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20000101</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>RE status map</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Status maps were registered to geographic coordinates, boundaries were digitized and attributed July 1995. Digital files were updated using survey and collateral data for newly acquired tracts, then stepped through 3 levels of quality-control review for spatial and attribute accuracy.  Refuge boundary and tract lines were registered to USGS 1:24,000-scale DRGs:  Maynard (1987).  Complete process description can be found in "SOP 97-01, USFWS Lands Boundary Data (Last Revision: January 15, 1998)".</procdesc>
+				<srcused>RE status map</srcused>
+				<procdate>20100601</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Mike Hayden</cntper>
+							<cntorg>USFWS, Region 5, National Wildlife Refuge System, Realty Division, Land Surveying &amp; Geospatial Services Branch</cntorg>
+						</cntperp>
+						<cntpos>Branch Chief</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>US Fish Wildlife Service, Realty Division, 300 Westgate Center Dr.</address>
+							<city>Hadley</city>
+							<state>MA</state>
+							<postal>01035</postal>
+						</cntaddr>
+						<cntvoice>(413) 253-8535</cntvoice>
+						<cntfax>(413) 253-8480</cntfax>
+						<cntemail>Mike_Hayden@fws.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\sefuller\LOCALS~1\Temp\xml10AA.tmp</srcused><procdate Sync="TRUE">20100603</procdate><proctime Sync="TRUE">15402800</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="FwsInterest">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>30</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>20</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>20</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="FwsInterest"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000063</absres>
+						<ordres>0.000063</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn><utm><utmzone Sync="TRUE">19</utmzone><transmer><sfctrmer Sync="TRUE">0.999600</sfctrmer><longcm Sync="TRUE">-69.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></utm></gridsys></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_19N</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>0.000003</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="FwsInterest">
+			<enttyp>
+				<enttypl>FwsInterest</enttypl>
+				<enttypd>US Fish &amp; Wildlife Service Interest - Nature of land ownership relative to the National Wildlife Refuge System.</enttypd>
+				<enttypds>USFWS Division of Realty</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>CMPXNAME</attrlabl>
+				<attrdef>Complex Name - Name of a number of stations combined under one management structure</attrdef>
+				<attrdefs>USFWS National Wildlife Refuge System</attrdefs>
+				<attrdomv>
+					<udom>Regional National Wildlife Refuge complex list</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">CMPXNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">85</attwidth></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ORGNAME</attrlabl>
+				<attrdef>Organization Name - Official name given to a Service organization that has been assigned an official five-digit numeric organization code by the Washington Office, Division of Financial Management</attrdef>
+				<attrdefs>USFWS Data Element Standard for Organization Name</attrdefs>
+				<attrdomv>
+					<udom>Master List of Official Names for FWS Land Units</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">ORGNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">75</attwidth></attr>
+			<attr>
+				<attrlabl>DIVNAME</attrlabl>
+				<attrdef>Division Name - Name given to a Service organization division</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Regional National Wildlife Refuge division list</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">DIVNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">85</attwidth></attr>
+			<attr>
+				<attrlabl>UNITNAME</attrlabl>
+				<attrdef>Unit Name - Name given to a Service unit of a specific National Wildlife Refuge</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Regional National Wildlife Refuge unit list</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">UNITNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">75</attwidth></attr>
+			<attr>
+				<attrlabl>SUBUNAME</attrlabl>
+				<attrdef>Subunit Name - Name given to a Service subunit of a specific National Wildlife Refuge</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Regional National Wildlife Refuge subunit list</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">SUBUNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>ORGCODE</attrlabl>
+				<attrdef>Organization Code - Unique five-digit numeric codes assigned by the Washington Office, Division of Financial Management, to Service organizations where personnel are assigned and all unstaffed land management units. Organization codes may also be assigned to meet an administrative requirement.</attrdef>
+				<attrdefs>USFWS Division of Financial Management</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Master List of Organization Codes for FWS Land Units</codesetn>
+						<codesets>USFWS Division of Financial Management</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">ORGCODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>MGMTCODE</attrlabl>
+				<attrdef>The ORGCODE that reflects the actual managing station of a particular Service unit of the NWRS.</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Master List of Organization Codes for FWS Land Units</codesetn>
+						<codesets>USFWS Division of Financial Management</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">MGMTCODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>IFWS</attrlabl>
+				<attrdef>Interior-USFWS number: unique 1-6 character code assigned by the Washington Office, Division of Realty, to each organizational unit, area, or project site over which the Service has some type of jurisdiction.</attrdef>
+				<attrdefs>USFWS Data Element Standard for IFWS Number</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Master List of IFWS Numbers for FWS Land Units</codesetn>
+						<codesets>USFWS Division of Realty</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">IFWS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<attr>
+				<attrlabl>LIT</attrlabl>
+				<attrdef>Literals - Unique alpha codes assigned by the Washington Office, Division of Realty, that identify the organizational units, areas, and project sites on Service-owned lands.</attrdef>
+				<attrdefs>USFWS Data Element Standard for Literals</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Master List of Literal Codes for FWS Land Units</codesetn>
+						<codesets>USFWS Division of Realty</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">LIT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr>
+			<attr>
+				<attrlabl>GISACRES</attrlabl>
+				<attrdef>Geographic Information System Acres - Acres determined by GIS software for each polygon</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">GISACRES</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>DOCACRES</attrlabl>
+				<attrdef>Document Acres - Acres indicated in deed or other official document</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are derived from deed or other official document.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">DOCACRES</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>STATUS</attrlabl>
+				<attrdef>The current status of USFWS management pertaining to a parcel of a land or water, and whether the parcel is owned and/or managed by the USFWS (Acquired) or is owned and/or managed by another party (Inholding).</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Acquired or "0"</edomv>
+						<edomvd>Acquired - Parcel for which FWS has fee or less than fee interest.</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Inholding or "1"</edomv>
+						<edomvd>Inholding - Lands within the approved acquisition boundary for which the FWS has yet to acquire an interest.</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">STATUS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>SURACRES</attrlabl>
+				<attrdef>Survey Acres - Acres determined by survey</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are derived from survey document.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">SURACRES</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>INTTYPE1</attrlabl>
+				<attrdef>Interest Type 1 - the primary real property interest (land or water) held by the USFWS.</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Easement - area of land where USFWS shares interest via easement or lease</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>S</edomv>
+						<edomvd>Secondary - area of land where USFWS holds secondary interest to another federal agency (ies)</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>Uncertain - status of parcel is uncertain because it is unknown or requires additional research</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LE</edomv>
+						<edomvd>Life Use Reservation - An estate in property, the duration of which is confined to the life of one or more persons or contingent upon certain happenings.</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>Partial Interest - A shared ownership in a tract of land, between the Service and others.</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Agreement - A written concurrence between USFWS and another party(ies) for management of a parcel of land or water.</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>L</edomv>
+						<edomvd>Lease - Management of land and/or water is given by the owner to the USFWS for a specified period of time.</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>O</edomv>
+						<edomvd>Fee - Lands owned in Fee by the United States where the Service is the primary administering agency.</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">INTTYPE1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth></attr>
+			<attr>
+				<attrlabl>TRACTNO</attrlabl>
+				<attrdef>Tract Number - Number assigned to each tract</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Unique numeric and alpha codes generated for each tract by USFWS Realty</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">TRACTNO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+			<attr>
+				<attrlabl>INTTYPE2</attrlabl>
+				<attrdef>Interest Type 2 - The secondary real property interest (land or water) held by the FWS.</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Conservation</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Electrical</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>F</edomv>
+						<edomvd>Flowage</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>G</edomv>
+						<edomvd>Grassland</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>H</edomv>
+						<edomvd>Occupancy</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>M</edomv>
+						<edomvd>Miscellaneous</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>R</edomv>
+						<edomvd>Roads</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>Underground Materials</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>X</edomv>
+						<edomvd>Wetlands</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>XT</edomv>
+						<edomvd>Timber in exchange for FWS receiving title to land</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>MU</edomv>
+						<edomvd>Memorandum of Understanding</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Agriculture</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>D</edomv>
+						<edomvd>Ditch, Canal, or Culvert</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ET</edomv>
+						<edomvd>Electrical and Telephone</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FX</edomv>
+						<edomvd>Flowage and Wetland</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>GU</edomv>
+						<edomvd>All Minerals (includes gas and oil)</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>L</edomv>
+						<edomvd>Levy, Dike or Jetty</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>Pipeline</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>W</edomv>
+						<edomvd>Water</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>XL</edomv>
+						<edomvd>Land in exchange for FWS receiving title to land</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>17B</edomv>
+						<edomvd>Easement across native owned land</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>MA</edomv>
+						<edomvd>Memorandum of Agreement</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>N/A</edomv>
+						<edomvd>Not applicable</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">INTTYPE2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr>
+			<attr>
+				<attrlabl>COMMENTS</attrlabl>
+				<attrdef>Comments - Additional information</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Unique note for each tract when necessary.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">COMMENTS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr>
+			<attr>
+				<attrlabl>FWSREGION</attrlabl>
+				<attrdef>FWS Region -  Regional offices within the Service that have responsibility for program and/or administrative activities within a geographically-defined area</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Pacific Region or "1"</edomv>
+						<edomvd>Pacific Region, Region 1</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Southwest or "2"</edomv>
+						<edomvd>Southwest Region, Region 2</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Great Lakes - Big Rivers Region or "3"</edomv>
+						<edomvd>Great Lakes - Big Rivers Region, Region 3</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Southeast Region or "4"</edomv>
+						<edomvd>Southeast Region, Region 4</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Northeast Region or "5"</edomv>
+						<edomvd>Northeast Region, Region 5</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Mountain - Prairie Region or "6"</edomv>
+						<edomvd>Mountain - Prairie Region, Region 6</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Alaska Region or "7"</edomv>
+						<edomvd>Alaska Region, Region 7</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Pacific Southwest Region or "8"</edomv>
+						<edomvd>Pacific Southwest Region (California and Nevada), Region 8</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">FWSREGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth></attr>
+			<attr>
+				<attrlabl>INTIDNO</attrlabl>
+				<attrdef>Interest Identification Number - A concatenation of IFWS and TRACTNO that includes a period (.) separator</attrdef>
+				<attrdefs>USFWS Division of Realty</attrdefs>
+				<attrdomv>
+					<udom>Unique string derived by concatinating the IFWS and TRACTNO fields.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">INTIDNO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr>
+				<attrlabl>RSL_TYPE</attrlabl>
+				<attrdef>Organization Type - Administrative categories that identify Service organizations by their primary facility function, program activities, specialized duties and responsibilities, and/or operational status.</attrdef>
+				<attrdefs>USFWS Data Element Standard for Organization Type</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>AS</edomv>
+						<edomvd>Administrative Site</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>COORD</edomv>
+						<edomvd>Coordination Area</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FR</edomv>
+						<edomvd>Fisheries Research Station</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FSA</edomv>
+						<edomvd>Farm Service Administration</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FTC</edomv>
+						<edomvd>Fish Technology Center</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NFH</edomv>
+						<edomvd>National Fish Hatchery</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NWR</edomv>
+						<edomvd>National Wildlife Refuge</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>WMA</edomv>
+						<edomvd>Wildlife Management Area</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>WPA</edomv>
+						<edomvd>Waterfowl Production Area</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>WRC</edomv>
+						<edomvd>Wildlife Research Center</edomvd>
+						<edomvds>USFWS Division of Realty</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">RSL_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+		</detailed>
+		<overview>
+			<eaover>Refuge boundaries define areas that are approved for acquisition into the National Wildlife Refuge System or are currently owned by USFWS. Arcs are coded with an item "boundary" with the type of boundary line; polygons are coded with an item "status" that describes their ownership status. See "SOP 97-01, USFWS Lands Boundary Data (Last Revision: January 15, 1998)"</eaover>
+			<eadetcit>See "SOP 97-01, USFWS Lands Boundary Data (Last Revision: January 15, 1998)"</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Hayden</cntper>
+					<cntorg>USFWS, Region 5, National Wildlife Refuge System, Realty Division, Land Surveying &amp; Geospatial Services Branch</cntorg>
+				</cntperp>
+				<cntpos>Supervisory Land Surveyor</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Fish and Wildlife Service, Realty Division, 300 Westgate Center Dr.</address>
+					<city>Hadley</city>
+					<state>MA</state>
+					<postal>01035</postal>
+				</cntaddr>
+				<cntvoice>(413) 253-8535</cntvoice>
+				<cntfax>(413) 253-8480</cntfax>
+				<cntemail>Mike_Hayden@fws.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>USFWS National Wildlife Refuge Boundary Data</resdesc>
+		<distliab>Although these data and information have been processed successfully on a computer system at the USFWS, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data, and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USFWS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE</formname>
+					<filedec>no compression applied</filedec>
+					<transize>0.083</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://northeast.fws.gov/gis</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+			<ordering>http://northeast.fws.gov/gis.  Select "Download Data"; "National Wildlife Refuge Boundaries"; state name; refuge name.</ordering>
+		</stdorder>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20100601</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20100603</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Hayden</cntper>
+					<cntorg>US Fish and Wildlife Service, Region 5, National Wildlife Refuge System, Realty Division, Land Surveying &amp; Geospatial Services Branch</cntorg>
+				</cntperp>
+				<cntpos>Supervisory Land Surveyor</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Fish and Wildlife Service, Realty Division, 300 Westgate Center Dr.</address>
+					<city>Hadley</city>
+					<state>MA</state>
+					<postal>01035</postal>
+				</cntaddr>
+				<cntvoice>(413) 253-8535</cntvoice>
+				<cntfax>(413) 253-8480</cntfax>
+				<cntemail>Mike_Hayden@fws.gov</cntemail>
+				<cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp></cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20210928</CreaDate><CreaTime>10135200</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100603</SyncDate><SyncTime>15480000</SyncTime><ModDate>20100603</ModDate><ModTime>15480000</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20100603" Time="154800">CopyFeatures K:\refuges\assabetriver\Asr_base.gdb\FwsBoundary\FwsInterest K:\refuges\assabetriver\bnd\FwsInterest.shp # 0 0 0</Process></lineage></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">FwsInterest</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\ifw5ro-nas01\gis_data1\refuges\assabetriver\bnd\FwsInterest.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_UTM_Zone_19N</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="FwsInterest"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100603</mdDateSt></metadata>
